@@ -27,7 +27,7 @@
         scene.add(light);
 
         const loader = new THREE.GLTFLoader();
-        loader.load('https://JF0220.io/Crocodile/Cocodrilo.glb', function (gltf) {
+        loader.load('Cocodrilo.glb', function (gltf) {
             scene.add(gltf.scene);
         }, undefined, function (error) {
             console.error('Error al cargar el modelo:', error);
